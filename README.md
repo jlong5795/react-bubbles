@@ -27,10 +27,20 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+A token is used to verify that a user is authenticated and allows them access to otherwise restricted pages and elements in a web site/application.
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+User authentication with tokens and protected routes. When deploying apps using variables and non-public files to manage tokens and keys so that they aren't publically viewable.
+
 - [ ] Describe how web servers work.
+
+Web servers function through a series of API calls. When you visit a URL it's a get request. 
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
 
+Create matches with Put or Post, Read with Get, and Delete and Delete.
 
 ## Project Set Up
 
